@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 .head {
-  background-image: url("/Unit3/background.jpg")/*remember to change to "/Unit3/background.jpg" when moving to GitHub*/;
+  background-image: url("Unit3/background.jpg")/*remember to change to "/Unit3/background.jpg" when moving to GitHub*/;
   background-color: white;
   hight: 500px;
   background-position: center;
