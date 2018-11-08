@@ -1,25 +1,33 @@
 body {
   background-color: black;
 }
+.head {
+  background-image: "/Unit3/background.jpg"/*remember to change to "/Unit3/background.jpg" when moving to GitHub*/;
+  background-color: white;
+  hight: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 a:active {
-    color: lightblue ;
-    text-decoration: underline;
+  color: lightblue ;
+  text-decoration: underline;
 }
