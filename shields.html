@@ -8,6 +8,7 @@
       <p align= "right">
         <a href= "/Unit3/index.html">Home </a>
         <u>Shields</u>
+        <a href= "/Unit3/armor.html">Armor</a>
       </p>
     </font>
   </head>
@@ -15,6 +16,7 @@
     <center>
       <font color= "white" face= "arial" size= "4">
         <p>Shield Generators will give you shield HP in exchange for energy when your energy is above that parts required threshold and your shield HP is below it's max. In other words, when you have above a certain amount of energy, and your shiled is not full, then your shield generator will turn on, consuming energy and refilling your SHP.</P>
+        <p>Shield HP is just like normal HP, except that it can regenerate, and it needs to be fully depleted before your normal HP can be damaged.</p>
         <table>
           <tr>
             <th>Name</th>
@@ -24,7 +26,7 @@
             <th>SHP regen</th>
             <th>Min Energy</th>
             <th>Energy Usage</th>
-            <th>Size</th>
+            <th>Energy Effieciency</th>
           </tr>
           <tr>
             <td>Shield Capacitor</td>
@@ -34,7 +36,7 @@
             <td>1.5SHP/s</td>
             <td>99%</td>
             <td>3E/s</td>
-            <td>1*1</td>
+            <td>50%</td>
           </tr>
           <tr>
             <td>Advanced Shield Generator</td>
@@ -44,7 +46,7 @@
             <td>2.4SHP/s</td>
             <td>75%</td>
             <td>288E/s</td>
-            <td>2*1</td>
+            <td>1.2%</td>
           </tr>
           <tr>
             <td>Heavy Shield Generator</td>
@@ -54,7 +56,7 @@
             <td>12SHP/s</td>
             <td>50%</td>
             <td>2160E/s</td>
-            <td>2*2</td>
+            <td>1.8%</td>
           </tr>
         </table>
       </font>
@@ -77,8 +79,8 @@
       <font color= "purple" face="arial" size= "4">
         Energy Usage
       </font>
-      <font color= "limegreen" face="arial" size= "4">
-        Size
+      <font color= "tomato" face="arial" size= "4">
+        Efficiency
       </font>
       <font color= "white" face= "arial" size= "2">
         <fieldset>
@@ -92,7 +94,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 150px; background-color: orange;">$15SHP</span>
+            <span class= "chartBar" style= "width: 150px; background-color: orange;">15SHP</span>
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
@@ -108,7 +110,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 50px; background-color: limegreen;">1</span>
+            <span class= "chartBar" style= "width: 250px; background-color: tomato;">50%</span>
           </div>
           <br>
           <div style= "text-align: left;">
@@ -121,7 +123,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 150px; background-color: orange;">$15SHP</span>
+            <span class= "chartBar" style= "width: 150px; background-color: orange;">15SHP</span>
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
@@ -137,7 +139,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 100px; background-color: limegreen;">2</span>
+            <span class= "chartBar" style= "width: 6px; background-color: tomato;">1.2%</span>
           </div>
           <br>
           <div style= "text-align: left;">
@@ -150,7 +152,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 250px; background-color: orange;">$25SHP</span>
+            <span class= "chartBar" style= "width: 250px; background-color: orange;">25SHP</span>
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
@@ -166,7 +168,7 @@
           </div>
           <div style= "text-align: left;">
             <span class= "chartLabel"></span>
-            <span class= "chartBar" style= "width: 200px; background-color: limegreen;">4</span>
+            <span class= "chartBar" style= "width: 9px; background-color: tomato;">1.8%</span>
           </div>
         </fieldset>
       </font>
