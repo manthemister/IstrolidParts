@@ -1,26 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang= "en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset= "UTF-8" />
     <title>Shield comparisons</title>
-    <link rel="stylesheet" href="/Unit3/index.css">
-    <font color="lightblue" face= "arial" size= "4">
-      <p align="right">
-        <a href="/Unit3/index.html">Home </a>
+    <link rel= "stylesheet" href= "/Unit3/index.css">
+    <font color= "lightblue" face= "arial" size= "4">
+      <p align= "right">
+        <a href= "/Unit3/index.html">Home </a>
         <u>Shields</u>
       </p>
     </font>
   </head>
   <body>
     <center>
-      <font color="white" face= "arial" size= "4">
-        <p>Shield parts convert energy into shield hit points. Each shield Part has a max SHP, an SHP per second, and energy per second.</p>
+      <font color= "white" face= "arial" size= "4">
+        <p>Shield Generators will give you shield HP when your energy is above that parts required threshold and your shield HP is below it's max.</P>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Mass</th>
+            <th>Max HP</th>
+            <th>HP regen</th>
+            <th>Min Energy</th>
+            <th>Energy Usage</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Shield Capacitor</td>
+            <td>$15</td>
+            <td>8T</td>
+            <td>15SHP</td>
+            <td>1.5SHP/s</td>
+            <td>99%</td>
+            <td>3E/s</td>
+            <td>1*1</td>
+          </tr>
+          <tr>
+            <td>Advanced Shield Generator</td>
+            <td>$30</td>
+            <td>2T</td>
+            <td>15SHP</td>
+            <td>2.4SHP/s</td>
+            <td>75%</td>
+            <td>288E/s</td>
+            <td>2*1</td>
+          </tr>
+          <tr>
+            <td>Heavy Shield Generator</td>
+            <td>$50</td>
+            <td>25T</td>
+            <td>25SHP</td>
+            <td>12SHP/s</td>
+            <td>50%</td>
+            <td>2160E/s</td>
+            <td>2*2</td>
+          </tr>
+        </table>
+      </font>
+      <br>
+      <font color= "white" face= "arial" size= "2">
+        <fieldset>
+          <div style= "text-align: left;">
+            <span class= "chartLabel">Shield Capacitor</span>
+            <span class= "chartBar" style= "width: 75px; background-color: blue;">$15</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 80px; background-color: red;">8T</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 150px; background-color: orange;">$15SHP</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 30px; background-color: green;">1.5SHP/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 297px; background-color: steelblue;">99%</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 1px; background-color: purple">3E/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 50px; background-color: yellow;">1</span>
+          </div>
+          <br>
+          <div style= "text-align: left;">
+            <span class= "chartLabel">Advanced Shield Generator</span>
+            <span class= "chartBar" style= "width: 150px; background-color: blue;">$30</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 20px; background-color: red;">2T</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 150px; background-color: orange;">$15SHP</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 48px; background-color: green;">2.4SHP/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 225px; background-color: steelblue;">75%</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 29px; background-color: purple">288E/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 100px; background-color: yellow;">2</span>
+          </div>
+          <br>
+          <div style= "text-align: left;">
+            <span class= "chartLabel">Heavy Shield Generator</span>
+            <span class= "chartBar" style= "width: 250px; background-color: blue;">$50</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 250px; background-color: red;">25T</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 250px; background-color: orange;">$25SHP</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 240px; background-color: green;">12SHP/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 150px; background-color: steelblue;">50%</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 216px; background-color: purple">2160E/s</span>
+          </div>
+          <div style= "text-align: left;">
+            <span class= "chartLabel"></span>
+            <span class= "chartBar" style= "width: 200px; background-color: yellow;">4</span>
+          </div>
+        </fieldset>
+      </font>
+      <br>
+      <font color= "white" face= "arial" size= "4">
         <a href="/Unit3/index.html">Return Home</a>
-      </font color="white" face= "arial" size= "4">
+      </font>
     </center>
   </body>
   <footer>
-    <font color="LightGray" face= "arial" size= "2">
+    <font color= "LightGray" face= "arial" size= "2">
       <p>I do not claim credit for any of the images/videos/anything else on this website other than the exact text.</p>
     </font>
 </html>
