@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 .head {
-  background-image: url(background.jpg)/*remember to change to "/Unit3/background.jpg" when moving to GitHub*/;
+  background-image: url(background.jpg);
   background-color: white;
   hight: 500px;
   background-position: center;
@@ -30,4 +30,26 @@ a:hover {
 a:active {
   color: lightblue ;
   text-decoration: underline;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+fieldset {
+  width: 480px
+}
+span.chartBar {
+  display: inline-block;
+  text-align: right;
+}
+span.chartLabel {
+  display: inline-block;
+  width: 175px;
+  text-align: right;
 }
