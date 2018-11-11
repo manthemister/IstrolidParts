@@ -13,7 +13,6 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 a:link {
   color: white;
@@ -61,4 +60,8 @@ fieldset {
   white-space: nowrap;
   width: 1px;
   hight: 1px;
+}
+table {
+  white-space: nowrap;
+  display: block;
 }
