@@ -1,4 +1,4 @@
-body {
+html {
   background-color: black;
 }
 .head {
@@ -41,20 +41,24 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-fieldset {
-  width: 480px
-}
 span.chartBar {
   display: inline-block;
-  text-align: right;
+  width: 16px;
 }
-span.chartLabel {
+span.chartSegment {
   display: inline-block;
-  width: 175px;
-  text-align: right;
+  text-align: center;
+  white-space: nowrap;
 }
-span.chartLabel2 {
+span.chartBarLabel {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: left;
   display: inline-block;
-  width: 100px;
-  text-align: right;
+}
+fieldset {
+  display: block;
+  white-space: nowrap;
+  width: 1px;
+  hight: 1px;
 }
