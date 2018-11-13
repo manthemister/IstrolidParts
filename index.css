@@ -51,7 +51,7 @@ span.chartSegment {
 }
 span.chartBarLabel {
   writing-mode: vertical-rl;
-  text-orientation: upright;
+  text-orientation: sideways;
   text-align: left;
   display: inline-block;
 }
