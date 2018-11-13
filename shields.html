@@ -9,6 +9,7 @@
         <a href= "/IstrolidParts/index.html">Home</a>
         <u>Shields</u>
         <a href= "/IstrolidParts/armor.html">Armor</a>
+        <a href= "/IstrolidParts/energy.html">Energy</a>
       </p>
     </font>
   </head>
@@ -16,7 +17,7 @@
     <center>
       <font color= "white" face= "arial" size= "4">
         <p>Shield Generators will give you shield HP in exchange for energy when your energy is above that parts required threshold and your shield HP is below it's max. In other words, when you have above a certain amount of energy, and your shiled is not full, then your shield generator will turn on, consuming energy and refilling your SHP.</P>
-        <p>Shield HP is just like normal HP, except that it can regenerate, and it needs to be fully depleted before your normal HP can be damaged.</p>
+        <p>Shield HP is just like normal HP, except that it can regenerate, and it needs to be fully depleted before your normal HP can be damaged. Additionally, ships with an active shield cannot be set on fire by a flamethrower.</p>
         <div style= "display: inline-block;">
           <table>
             <tr>
@@ -27,7 +28,7 @@
               <th>SHP regen</th>
               <th>Min Energy</th>
               <th>Energy Usage</th>
-              <th>Energy Effieciency</th>
+              <th>Energy Effieciency (SHP/s to E/s ratio)</th>
             </tr>
             <tr>
               <td>Shield Capacitor</td>
@@ -61,100 +62,88 @@
             </tr>
           </table>
         </div>
+        <p>All parts scaled to $10 for easier comparison.</p>
       </font>
-      <br>
       <font color= "blue" face="arial" size= "4">
-       Cost
-      </font>
-      <font color= "red" face="arial" size= "4">
         Mass
       </font>
-      <font color= "orange" face="arial" size= "4">
+      <font color= "red" face="arial" size= "4">
         Max SHP
       </font>
-      <font color= "green" face="arial" size= "4">
+      <font color= "orange" face="arial" size= "4">
         SHP regen
       </font>
-      <font color= "steelblue" face="arial" size= "4">
+      <font color= "green" face="arial" size= "4">
         Min Energy
       </font>
-      <font color= "purple" face="arial" size= "4">
+      <font color= "steelblue" face="arial" size= "4">
         Energy Usage
       </font>
-      <font color= "tomato" face="arial" size= "4">
+      <font color= "purple" face="arial" size= "4">
         Efficiency
       </font>
       <font color= "white" face= "arial" size= "2">
         <fieldset>
           <span class= "chartSegment" style= "width: 180px;">
             <span class= "chartBarLabel">
-              $15<span class= "chartBar" style= "height: 75px; background-color: blue;"></span>
+              5.33T<span class= "chartBar" style= "height: 80px; background-color: blue;"></span>
             </span>
             <span class= "chartBarLabel">
-              8T<span class= "chartBar" style= "height: 80px; background-color: red;"></span>
+              10SHP<span class= "chartBar" style= "height: 150px; background-color: red;"></span>
             </span>
             <span class= "chartBarLabel">
-              15SHP<span class= "chartBar" style= "height: 150px; background-color: orange;"></span>
+              1SHP/s<span class= "chartBar" style= "height: 30px; background-color: orange;"></span>
             </span>
             <span class= "chartBarLabel">
-              1.5SHP/s<span class= "chartBar" style= "height: 30px; background-color: green;"></span>
+              99%<span class= "chartBar" style= "height: 297px; background-color: green;"></span>
             </span>
             <span class= "chartBarLabel">
-              99%<span class= "chartBar" style= "height: 297px; background-color: steelblue;"></span>
+              2E/s<span class= "chartBar" style= "height: 1px; background-color: steelblue"></span>
             </span>
             <span class= "chartBarLabel">
-              3E/s<span class= "chartBar" style= "height: 1px; background-color: purple"></span>
-            </span>
-            <span class= "chartBarLabel">
-              50%<span class= "chartBar" style= "height: 250px; background-color: tomato;"></span>
+              50%<span class= "chartBar" style= "height: 250px; background-color: purple;"></span>
             </span>
             <br>Shield Capacitor
           </span>
           <span class= "chartSegment" style= "width: 180px;">
             <span class= "chartBarLabel">
-              $30<span class= "chartBar" style= "height: 150px; background-color: blue;"></span>
+              0.67T<span class= "chartBar" style= "height: 20px; background-color: blue;"></span>
             </span>
             <span class= "chartBarLabel">
-              2T<span class= "chartBar" style= "height: 20px; background-color: red;"></span>
+              5SHP<span class= "chartBar" style= "height: 150px; background-color: red;"></span>
             </span>
             <span class= "chartBarLabel">
-              15SHP<span class= "chartBar" style= "height: 150px; background-color: orange;"></span>
+              0.8SHP/s<span class= "chartBar" style= "height: 48px; background-color: orange;"></span>
             </span>
             <span class= "chartBarLabel">
-              2.4SHP/s<span class= "chartBar" style= "height: 48px; background-color: green;"></span>
+              75%<span class= "chartBar" style= "height: 225px; background-color: green;"></span>
             </span>
             <span class= "chartBarLabel">
-              75%<span class= "chartBar" style= "height: 225px; background-color: steelblue;"></span>
+              96E/s<span class= "chartBar" style= "height: 29px; background-color: steelblue"></span>
             </span>
             <span class= "chartBarLabel">
-              288E/s<span class= "chartBar" style= "height: 29px; background-color: purple"></span>
-            </span>
-            <span class= "chartBarLabel">
-              1.2%<span class= "chartBar" style= "height: 6px; background-color: tomato;"></span>
+              1.2%<span class= "chartBar" style= "height: 6px; background-color: purple;"></span>
             </span>
             <br>Advanced Shield Generator
           </span>
           <span class= "chartSegment" style= "width: 180px;">
             <span class= "chartBarLabel">
-              $50<span class= "chartBar" style= "height: 250px; background-color: blue;"></span>
+              3T<span class= "chartBar" style= "height: 250px; background-color: blue;"></span>
             </span>
             <span class= "chartBarLabel">
-              25T<span class= "chartBar" style= "height: 250px; background-color: red;"></span>
+              5SHP<span class= "chartBar" style= "height: 250px; background-color: red;"></span>
             </span>
             <span class= "chartBarLabel">
-              25SHP<span class= "chartBar" style= "height: 250px; background-color: orange;"></span>
+              2.4SHP/s<span class= "chartBar" style= "height: 240px; background-color: orange;"></span>
             </span>
             <span class= "chartBarLabel">
-              12SHP/s<span class= "chartBar" style= "height: 240px; background-color: green;"></span>
+              50%<span class= "chartBar" style= "height: 150px; background-color: green;"></span>
             </span>
             <span class= "chartBarLabel">
-              50%<span class= "chartBar" style= "height: 150px; background-color: steelblue;"></span>
+              432E/s<span class= "chartBar" style= "height: 216px; background-color: steelblue"></span>
             </span>
             <span class= "chartBarLabel">
-              2160E/s<span class= "chartBar" style= "height: 216px; background-color: purple"></span>
-            </span>
-            <span class= "chartBarLabel">
-              1.8%<span class= "chartBar" style= "height: 9px; background-color: tomato;"></span>
+              1.8%<span class= "chartBar" style= "height: 9px; background-color: purple;"></span>
             </span>
             <br>Heavy Shield Generator
           </span>
