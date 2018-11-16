@@ -1,0 +1,70 @@
+html {
+  background-color: black;
+}
+.head {
+  background-image: url(background.jpg);
+  background-color: black;
+  hight: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+a:active {
+  color: lightblue ;
+  text-decoration: underline;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+span.chartBar {
+  display: inline-block;
+  width: 16px;
+}
+span.chartSegment {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+}
+span.chartBarLabel {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  text-align: left;
+  display: inline-block;
+}
+fieldset {
+  display: block;
+  white-space: nowrap;
+  width: 1px;
+  hight: 1px;
+}
+table {
+  white-space: nowrap;
+  display: block;
+}
+nav {
+  text-align: right;
+}

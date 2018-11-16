@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steve Bukowinski">
+    <meta name="keywords" content="istrolid, part, compare, wings">
+    <meta name="description" content="Comparing the different wing types in Istrolid.">
+    <title>Wing Comparisons</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <font color="lightblue" face="arial" size="4">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shields.html">Shields</a>
+        <a href="armor.html">Armor</a>
+        <a href="energy.html">Energy</a>
+        <u>Wings</u>
+      </nav>
+    </font>
+    <center>
+      <font color="white" face="arial" size="4">
+        <p>Wings increase the rate at which your ship turns. Turn speed is measured in degrees per second. The turn speed of your ship is calculated as follows: Total_TS = (Part TS * 15.9893 + 916.8) / Total Mass.</p>
+        <div style="display: inline-block;">
+          <table title="part comparison chart">
+            <tr>
+              <th>Name</th>
+              <th>Cost</th>
+              <th>Mass</th>
+              <th>HP</th>
+              <th>Turn Speed</th>
+            </tr>
+            <tr>
+              <td>Standard Wing (smallest variant)</td>
+              <td>$4</td>
+              <td>2T</td>
+              <td>4HP</td>
+              <td>430d/s</td>
+            </tr>
+            <tr>
+              <td>Light Wing</td>
+              <td>$2</td>
+              <td>0.1T</td>
+              <td>0HP</td>
+              <td>180d/s</td>
+            </tr>
+          </table>
+        </div>
+        <p>All parts scaled to $10 for easier comparison.</p>
+        </font>
+      <font color="blue" face="arial" size="4">Mass</font>
+      <font color="red" face="arial" size="4">HP</font>
+      <font color="orange" face="arial" size="4">Turn Speed</font>
+      <font color="white" face="arial" size="2">
+        <fieldset title="part comparison graph">
+          <span class="chartSegment" style="width: 90px;">
+            <span class="chartBarLabel">
+              5T<span class="chartBar" style="height: 300px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              10HP<span class="chartBar" style="height: 250px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              1075d/s<span class="chartBar" style="height: 215px; background-color: orange;"></span>
+            </span>
+            <br>Standard Wing
+          </span>
+          <span class="chartSegment" style="width: 90px;">
+            <span class="chartBarLabel">
+              0.5T<span class="chartBar" style="height: 30px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              0HP<span class="chartBar" style="height: 1px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              900d/s<span class="chartBar" style="height: 180px; background-color: orange;"></span>
+            </span>
+            <br>Light Wing
+          </span>
+        </fieldset>
+      </font>
+      <br>
+      <font color="white" face="arial" size="4">
+        <a href="index.html">Return Home</a>
+      </font>
+      <footer>
+        <font color="LightGray" face="arial" size="2">
+          <p>I do not claim credit for any of the images/videos/anything else on this website other than the exact text.</p>
+        </font>
+      </footer>
+    </center>
+  </body>
+</html>
