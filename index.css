@@ -67,4 +67,5 @@ table {
 }
 nav {
   text-align: right;
+  display: inline-block;
 }
