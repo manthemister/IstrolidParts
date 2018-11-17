@@ -3,11 +3,11 @@ html {
 }
 .head {
   background-image: url(background.jpg);
-  background-color: white;
+  background-color: black;
   hight: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 .center {
   display: block;
@@ -64,4 +64,7 @@ fieldset {
 table {
   white-space: nowrap;
   display: block;
+}
+nav {
+  text-align: right;
 }
