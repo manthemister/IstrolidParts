@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steve Bukowinski">
+    <meta name="keywords" content="istrolid, part, compare, thrusters">
+    <meta name="description" content="Comparing the different thruster types in Istrolid.">
+    <title>Thruster Comparisons</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <font color="lightblue" face="arial" size="4">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shields.html">Shields</a>
+        <a href="armor.html">Armor</a>
+        <a href="energy.html">Energy</a>
+        <a href="wings.html">Wings</a>
+        <u>Thrusters</u>
+      </nav>
+    </font>
+    <center>
+      <font color="white" face="arial" size="4">
+        <p>Thruster make your ship move. If your ship ship doesn't have any thrusters, then it can't be spawned. speed is measured in meters/second. speed is calculated as follows: [speed] = 9 * [total thrust] / [total mass]. Turn speed is measured in degrees per second. The turn speed of your ship is calculated as follows: total turn speed = ([total part TS] * 15.9893 + 916.8) / [total mass].</p>
+        <div style="display: inline-block;">
+          <table title="part comparison chart">
+            <tr>
+              <th>Name</th>
+              <th>Cost</th>
+              <th>Mass</th>
+              <th>Thrust</th>
+              <th>Turn Speed</th>
+              <th>Energy Useage</th>
+              <th>Efficiency (kN to E/s ratio)</th>
+            </tr>
+            <tr>
+              <td>Large Bulk Thruster</td>
+              <td>$47</td>
+              <td>135T</td>
+              <td>4336kN</td>
+              <td>57d/s</td>
+              <td>64E/s</td>
+              <td>67.75%</td>
+            </tr>
+            <tr>
+              <td>Bulk Thruster</td>
+              <td>$35</td>
+              <td>100T</td>
+              <td>3200kN</td>
+              <td>57d/s</td>
+              <td>48E/s</td>
+              <td>66.67%</td>
+            </tr>
+            <tr>
+              <td>Cruiser Thruster</td>
+              <td>$65</td>
+              <td>60T</td>
+              <td>4320kN</td>
+              <td>57d/s</td>
+              <td>208E/s</td>
+              <td>20.77%</td>
+            </tr>
+            <tr>
+              <td>Compact Cruiser Thruster</td>
+              <td>$44</td>
+              <td>40T</td>
+              <td>2880kN</td>
+              <td>57d/s</td>
+              <td>128E/s</td>
+              <td>22.5%</td>
+            </tr>
+            <tr>
+              <td>Scout Thruster</td>
+              <td>$20</td>
+              <td>15T</td>
+              <td>1360kN</td>
+              <td>57d/s</td>
+              <td>144E/s</td>
+              <td>9.44%</td>
+            </tr>
+            <tr>
+              <td>Fighter Thruster</td>
+              <td>$45</td>
+              <td>15T</td>
+              <td>2080kN</td>
+              <td>57d/s</td>
+              <td>192E/s</td>
+              <td>10.83%</td>
+            </tr>
+            <tr>
+              <td>Interceptor Afterburner</td>
+              <td>$145</td>
+              <td>80T</td>
+              <td>14400kN</td>
+              <td>229d/s</td>
+              <td>2704E/s</td>
+              <td>5.33%</td>
+            </tr>
+          </table>
+        </div>
+        <p>All parts scaled to $10 for easier comparison.</p>
+        </font>
+      <font color="blue" face="arial" size="4">Mass</font>
+      <font color="red" face="arial" size="4">Force</font>
+      <font color="orange" face="arial" size="4">Turn Speed</font>
+      <font color="green" face="arial" size="4">Energy Useage</font>
+      <font color="steelblue" face="arial" size="4">Efficiency</font>
+      <font color="white" face="arial" size="2">
+        <fieldset title="part comparison graph">
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              28.72T<span class="chartBar" style="height: 287px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              922.55kN<span class="chartBar" style="height: 264px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              12.13d/s<span class="chartBar" style="height: 121px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              13.62E/s<span class="chartBar" style="height: 20px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              67.75%<span class="chartBar" style="height: 271px; background-color: steelblue;"></span>
+            </span>
+            <br>Large Bulk Thruster
+          </span>
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              28.57T<span class="chartBar" style="height: 286px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              914.29kN<span class="chartBar" style="height: 261px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              16.29d/s<span class="chartBar" style="height: 163px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              13.71E/s<span class="chartBar" style="height: 21px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              66.67%<span class="chartBar" style="height: 267px; background-color: steelblue;"></span>
+            </span>
+            <br>Bulk Thruster
+          </span>
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              9.23T<span class="chartBar" style="height: 92px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              664.62kN<span class="chartBar" style="height: 190px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              8.77d/s<span class="chartBar" style="height: 88px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              32E/s<span class="chartBar" style="height: 48px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              20.77%<span class="chartBar" style="height: 83px; background-color: steelblue;"></span>
+            </span>
+            <br>Cruiser Thruster
+          </span>
+          <span class="chartSegment" style="width: 140px;">
+            <span class="chartBarLabel">
+              9.09T<span class="chartBar" style="height: 91px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              654.55kN<span class="chartBar" style="height: 187px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              12.95d/s<span class="chartBar" style="height: 130px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              29.09E/s<span class="chartBar" style="height: 44px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              22.5%<span class="chartBar" style="height: 90px; background-color: steelblue;"></span>
+            </span>
+            <br>Compact Cruiser Thruster
+          </span>
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              7.5T<span class="chartBar" style="height: 75px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              680kN<span class="chartBar" style="height: 194px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              28.5d/s<span class="chartBar" style="height: 285px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              72E/s<span class="chartBar" style="height: 108px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              9.44%<span class="chartBar" style="height: 38px; background-color: steelblue;"></span>
+            </span>
+            <br>Scout Thruster
+          </span>
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              3.33T<span class="chartBar" style="height: 33px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              462.22kN<span class="chartBar" style="height: 132px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              12.67d/s<span class="chartBar" style="height: 127px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              42.67E/s<span class="chartBar" style="height: 64px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              10.83%<span class="chartBar" style="height: 43px; background-color: steelblue;"></span>
+            </span>
+            <br>Fighter Thruster
+          </span>
+          <span class="chartSegment" style="width: 120px;">
+            <span class="chartBarLabel">
+              5.52T<span class="chartBar" style="height: 55px; background-color: blue;"></span>
+            </span>
+            <span class="chartBarLabel">
+              993.1kN<span class="chartBar" style="height: 284px; background-color: red;"></span>
+            </span>
+            <span class="chartBarLabel">
+              15.79d/s<span class="chartBar" style="height: 15.8px; background-color: orange;"></span>
+            </span>
+            <span class="chartBarLabel">
+              186.48E/s<span class="chartBar" style="height: 278px; background-color: green;"></span>
+            </span>
+            <span class="chartBarLabel">
+              5.33%<span class="chartBar" style="height: 21px; background-color: steelblue;"></span>
+            </span>
+            <br>Interceptor Afterburner
+          </span>
+        </fieldset>
+      </font>
+      <br>
+      <font color="white" face="arial" size="4">
+        <a href="index.html">Return Home</a>
+      </font>
+      <footer>
+        <font color="LightGray" face="arial" size="2">
+          <p>I do not claim credit for any of the images/videos/anything else on this website other than the exact text.</p>
+        </font>
+      </footer>
+    </center>
+  </body>
+</html>
