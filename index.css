@@ -1,6 +1,13 @@
 html {
   background-color: black;
 }
+body {
+  padding: 0px;
+  margin: 0px;
+}
+body p {
+  margin: 4px;
+}
 .head {
   background-image: url(background.jpg);
   background-color: black;
@@ -8,6 +15,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px;
 }
 .center {
   display: block;
