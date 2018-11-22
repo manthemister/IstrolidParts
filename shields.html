@@ -10,148 +10,134 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <font color="lightblue" face="arial" size="4">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="armor.html">Armor</a>
-        <a href="energy.html">Energy</a>
-        <u>Shields</u>
-        <a href="thrusters.html">Thrusters</a>
-        <a href="wings.html">Wings</a>
-      </nav>
-    </font>
-    <center>
-      <font color="white" face="arial" size="4">
-        <p>Shield Generators will give you shield HP in exchange for energy when your energy is above that parts required threshold and your shield HP is below it's max. In other words, when you have above a certain amount of energy, and your shiled is not full, then your shield generator will turn on, consuming energy and refilling your SHP.</P>
-        <p>Shield HP is just like normal HP, except that it can regenerate, and it needs to be fully depleted before your normal HP can be damaged. Additionally, ships with an active shield cannot be set on fire by a flamethrower.</p>
-        <div style="display: inline-block;">
-          <table title="part comparison chart">
-            <tr>
-              <th>Name</th>
-              <th>Cost</th>
-              <th>Mass</th>
-              <th>Max SHP</th>
-              <th>SHP regen</th>
-              <th>Min Energy</th>
-              <th>Energy Usage</th>
-              <th>Energy Efficiency (SHP/s to E/s ratio)</th>
-            </tr>
-            <tr>
-              <td>Shield Capacitor</td>
-              <td>$15</td>
-              <td>8T</td>
-              <td>15SHP</td>
-              <td>1.5SHP/s</td>
-              <td>99%</td>
-              <td>3E/s</td>
-              <td>50%</td>
-            </tr>
-            <tr>
-              <td>Advanced Shield Generator</td>
-              <td>$30</td>
-              <td>2T</td>
-              <td>15SHP</td>
-              <td>2.4SHP/s</td>
-              <td>75%</td>
-              <td>288E/s</td>
-              <td>1.2%</td>
-            </tr>
-            <tr>
-              <td>Heavy Shield Generator</td>
-              <td>$50</td>
-              <td>25T</td>
-              <td>25SHP</td>
-              <td>12SHP/s</td>
-              <td>50%</td>
-              <td>2160E/s</td>
-              <td>1.8%</td>
-            </tr>
-          </table>
-        </div>
-        <p>All parts scaled to $10 for easier comparison.</p>
-      </font>
-      <font color="blue" face="arial" size="4">Mass</font>
-      <font color="red" face="arial" size="4">Max SHP</font>
-      <font color="orange" face="arial" size="4">SHP regen</font>
-      <font color="green" face="arial" size="4">Min Energy</font>
-      <font color="steelblue" face="arial" size="4">Energy Usage</font>
-      <font color="purple" face="arial" size="4">Efficiency</font>
-      <font color="white" face="arial" size="2">
-        <fieldset title="part comparison graph">
-          <span class="chartSegment" style="width: 180px;">
-            <span class="chartBarLabel">
-              5.33T<span class="chartBar" style="height: 80px; background-color: blue;"></span>
-            </span>
-            <span class="chartBarLabel">
-              10SHP<span class="chartBar" style="height: 150px; background-color: red;"></span>
-            </span>
-            <span class="chartBarLabel">
-              1SHP/s<span class="chartBar" style="height: 30px; background-color: orange;"></span>
-            </span>
-            <span class="chartBarLabel">
-              99%<span class="chartBar" style="height: 297px; background-color: green;"></span>
-            </span>
-            <span class="chartBarLabel">
-              2E/s<span class="chartBar" style="height: 1px; background-color: steelblue"></span>
-            </span>
-            <span class="chartBarLabel">
-              50%<span class="chartBar" style="height: 250px; background-color: purple;"></span>
-            </span>
-            <br>Shield Capacitor
-          </span>
-          <span class="chartSegment" style="width: 180px;">
-            <span class="chartBarLabel">
-              0.67T<span class="chartBar" style="height: 20px; background-color: blue;"></span>
-            </span>
-            <span class="chartBarLabel">
-              5SHP<span class="chartBar" style="height: 150px; background-color: red;"></span>
-            </span>
-            <span class="chartBarLabel">
-              0.8SHP/s<span class="chartBar" style="height: 48px; background-color: orange;"></span>
-            </span>
-            <span class="chartBarLabel">
-              75%<span class="chartBar" style="height: 225px; background-color: green;"></span>
-            </span>
-            <span class="chartBarLabel">
-              96E/s<span class="chartBar" style="height: 29px; background-color: steelblue"></span>
-            </span>
-            <span class="chartBarLabel">
-              1.2%<span class="chartBar" style="height: 6px; background-color: purple;"></span>
-            </span>
-            <br>Advanced Shield Generator
-          </span>
-          <span class="chartSegment" style="width: 180px;">
-            <span class="chartBarLabel">
-              3T<span class="chartBar" style="height: 250px; background-color: blue;"></span>
-            </span>
-            <span class="chartBarLabel">
-              5SHP<span class="chartBar" style="height: 250px; background-color: red;"></span>
-            </span>
-            <span class="chartBarLabel">
-              2.4SHP/s<span class="chartBar" style="height: 240px; background-color: orange;"></span>
-            </span>
-            <span class="chartBarLabel">
-              50%<span class="chartBar" style="height: 150px; background-color: green;"></span>
-            </span>
-            <span class="chartBarLabel">
-              432E/s<span class="chartBar" style="height: 216px; background-color: steelblue"></span>
-            </span>
-            <span class="chartBarLabel">
-              1.8%<span class="chartBar" style="height: 9px; background-color: purple;"></span>
-            </span>
-            <br>Heavy Shield Generator
-          </span>
-        </fieldset>
-      </font>
-      <br>
-      <font color="white" face="arial" size="4">
-        <a href="index.html">Return Home</a>
-      </font>
-      <footer>
-        <font color="LightGray" face="arial" size="2">
-          <p>I do not claim credit for any of the images/videos/anything else on this website other than the exact text. Most of it is property of TreeForm (I think).</p>
-        </font>
-      </footer>
-    </center>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="armor.html">Armor</a>
+    <a href="energy.html">Energy</a>
+    <u>Shields</u>
+    <a href="thrusters.html">Thrusters</a>
+    <a href="wings.html">Wings</a>
+  </nav>
+  <p>Shield Generators will give you shield HP in exchange for energy when your energy is above that parts required threshold and your shield HP is below it's max. In other words, when you have above a certain amount of energy, and your shiled is not full, then your shield generator will turn on, consuming energy and refilling your SHP.</P>
+  <p>Shield HP is just like normal HP, except that it can regenerate, and it needs to be fully depleted before your normal HP can be damaged. Additionally, ships with an active shield cannot be set on fire by a flamethrower.</p>
+  <table title="part comparison chart">
+    <tr>
+      <th>Name</th>
+      <th>Cost</th>
+      <th>Mass</th>
+      <th>Max SHP</th>
+      <th>SHP regen</th>
+      <th>Min Energy</th>
+      <th>Energy Usage</th>
+      <th>Energy Efficiency (SHP/s to E/s ratio)</th>
+    </tr>
+    <tr>
+      <td>Shield Capacitor</td>
+      <td>$15</td>
+      <td>8T</td>
+      <td>15SHP</td>
+      <td>1.5SHP/s</td>
+      <td>99%</td>
+      <td>3E/s</td>
+      <td>50%</td>
+    </tr>
+    <tr>
+      <td>Advanced Shield Generator</td>
+      <td>$30</td>
+      <td>2T</td>
+      <td>15SHP</td>
+      <td>2.4SHP/s</td>
+      <td>75%</td>
+      <td>288E/s</td>
+      <td>1.2%</td>
+    </tr>
+    <tr>
+      <td>Heavy Shield Generator</td>
+      <td>$50</td>
+      <td>25T</td>
+      <td>25SHP</td>
+      <td>12SHP/s</td>
+      <td>50%</td>
+      <td>2160E/s</td>
+      <td>1.8%</td>
+    </tr>
+  </table>
+  <p>All parts scaled to $10 for easier comparison.</p>
+  <font color="blue" face="arial" size="4">Mass</font>
+  <font color="red" face="arial" size="4">Max SHP</font>
+  <font color="orange" face="arial" size="4">SHP regen</font>
+  <font color="green" face="arial" size="4">Min Energy</font>
+  <font color="steelblue" face="arial" size="4">Energy Usage</font>
+  <font color="purple" face="arial" size="4">Efficiency</font>
+  <fieldset title="part comparison graph">
+    <span class="chartSegment" style="width: 11vw;">
+      <span class="chartBarLabel">
+        5.33T<span class="chartBar" style="height: 267px; background-color: blue;"></span>
+      </span>
+      <span class="chartBarLabel">
+        10SHP<span class="chartBar" style="height: 300px; background-color: red;"></span>
+      </span>
+      <span class="chartBarLabel">
+        1SHP/s<span class="chartBar" style="height: 100px; background-color: orange;"></span>
+      </span>
+      <span class="chartBarLabel">
+        99%<span class="chartBar" style="height: 297px; background-color: green;"></span>
+      </span>
+      <span class="chartBarLabel">
+        2E/s<span class="chartBar" style="height: 1px; background-color: steelblue"></span>
+      </span>
+      <span class="chartBarLabel">
+        50%<span class="chartBar" style="height: 250px; background-color: purple;"></span>
+      </span>
+      <br>Shield Capacitor
+    </span>
+    <span class="chartSegment" style="width: 14vw;">
+      <span class="chartBarLabel">
+        0.67T<span class="chartBar" style="height: 30px; background-color: blue;"></span>
+      </span>
+      <span class="chartBarLabel">
+        5SHP<span class="chartBar" style="height: 150px; background-color: red;"></span>
+      </span>
+      <span class="chartBarLabel">
+        0.8SHP/s<span class="chartBar" style="height: 80px; background-color: orange;"></span>
+      </span>
+      <span class="chartBarLabel">
+        75%<span class="chartBar" style="height: 225px; background-color: green;"></span>
+      </span>
+      <span class="chartBarLabel">
+        96E/s<span class="chartBar" style="height: 29px; background-color: steelblue"></span>
+      </span>
+      <span class="chartBarLabel">
+        1.2%<span class="chartBar" style="height: 6px; background-color: purple;"></span>
+      </span>
+      <br>Advanced Shield Generator
+    </span>
+    <span class="chartSegment" style="width: 13vw;">
+      <span class="chartBarLabel">
+        3T<span class="chartBar" style="height: 150px; background-color: blue;"></span>
+      </span>
+      <span class="chartBarLabel">
+        5SHP<span class="chartBar" style="height: 150px; background-color: red;"></span>
+      </span>
+      <span class="chartBarLabel">
+        2.4SHP/s<span class="chartBar" style="height: 240px; background-color: orange;"></span>
+      </span>
+      <span class="chartBarLabel">
+        50%<span class="chartBar" style="height: 150px; background-color: green;"></span>
+      </span>
+      <span class="chartBarLabel">
+        432E/s<span class="chartBar" style="height: 216px; background-color: steelblue"></span>
+      </span>
+      <span class="chartBarLabel">
+        1.8%<span class="chartBar" style="height: 9px; background-color: purple;"></span>
+      </span>
+      <br>Heavy Shield Generator
+    </span>
+  </fieldset>
+  <br>
+  <a href="index.html">Return Home</a>
+  <footer>
+    <p>I do not claim credit for any of the images/videos/anything else on this website other than the exact text. Most of it is property of TreeForm (I think).</p>
+  </footer>
   </body>
 </html>

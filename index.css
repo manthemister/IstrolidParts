@@ -1,26 +1,27 @@
 html {
   background-color: black;
+  font: arial;
+  font-size: 1.5vw;
+  color: #fff;
+  text-align: center;
 }
 body {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
 }
-body p {
-  margin: 4px;
+p {
+  margin: 2vw;
 }
 .head {
   background-image: url(background.jpg);
-  background-color: black;
-  hight: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #000;
   background-size: cover;
-  margin: 0px;
+  font-size: 3.4vw;
+  margin: 0;
 }
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 95vw;
 }
 a:link {
   color: white;
@@ -39,18 +40,17 @@ a:active {
   text-decoration: underline;
 }
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    margin: auto;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #fff;
     text-align: left;
-    padding: 8px;
+    padding: 0.5vw;
 }
 span.chartBar {
   display: inline-block;
-  width: 16px;
+  width: 1.2vw;
 }
 span.chartSegment {
   display: inline-block;
@@ -66,13 +66,22 @@ span.chartBarLabel {
 fieldset {
   display: block;
   white-space: nowrap;
-  width: 1px;
-  hight: 1px;
-}
-table {
-  white-space: nowrap;
-  display: block;
+  font-size: 1.2vw;
+  width: 0;
+  margin: auto;
 }
 nav {
   text-align: right;
+  margin-right: 1vw;
+  font-size: 1.5vw;
+  color: #9cf
+}
+footer {
+  font-size: 1.2vw;
+  color: #ddd;
+}
+iframe {
+  width: 45vw;
+  height: 25vw;
+  margin: 1vw;
 }
