@@ -50,7 +50,7 @@ td, th {
 }
 span.chartBar {
   display: inline-block;
-  width: 1.2vw;
+  width: 1.5vw;
 }
 span.chartSegment {
   display: inline-block;
@@ -73,7 +73,8 @@ fieldset {
 nav {
   text-align: right;
   margin-right: 1vw;
-  color: #9cf
+  color: #9cf;
+  font-size: 1.5vw;
 }
 footer {
   font-size: 1.5vw;
