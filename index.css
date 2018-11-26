@@ -1,7 +1,7 @@
 html {
   background-color: black;
   font: arial;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: #fff;
   text-align: center;
 }
@@ -24,19 +24,19 @@ p {
   width: 95vw;
 }
 a:link {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
-  color: blue;
+  color: #00f;
   text-decoration: underline;
 }
 a:active {
-  color: lightblue ;
+  color: #9cf;
   text-decoration: underline;
 }
 table {
@@ -66,18 +66,17 @@ span.chartBarLabel {
 fieldset {
   display: block;
   white-space: nowrap;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   width: 0;
   margin: auto;
 }
 nav {
   text-align: right;
   margin-right: 1vw;
-  font-size: 1.5vw;
   color: #9cf
 }
 footer {
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   color: #ddd;
 }
 iframe {
